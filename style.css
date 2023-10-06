@@ -1,0 +1,49 @@
+body{
+    background-color: teal;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container
+{
+    background-color: rgb(40, 45, 45);
+    max-width: 300px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px 20px 20px;
+    box-shadow: 1px 5px 10px black
+
+}
+.display
+{
+    height: 50px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    text-align: right;
+    margin-bottom: 10px;
+    background-color: rgb(40, 45, 45);
+    color: white;
+}
+.buttons
+{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4 , 1fr);
+}
+.buttons button
+{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #eee;
+}
+.operator
+{
+    color: #2f9fff;
+}
+
